@@ -35,6 +35,9 @@ KafkaConsumer Service: A service that listens to a specified Kafka topic using t
 
 KafkaController: A REST controller that provides an endpoint for sending messages to Kafka.
 
+**curl command**
+curl -X POST -H "Content-Type: application/json" -d '"Your message here"' http://localhost:8080/kafka/send
+
 **Postman Screenshot**
 
 ![image](https://github.com/MilaOrujaliyev/spring-kafka-poc/assets/88654285/8fe3c292-63bb-4079-8d1b-30093abf49cb)
